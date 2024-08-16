@@ -1,7 +1,14 @@
-//Shailesh Lokhande from this side 
-class First_java{
- public static void main(String args[]){
-        System.out.println("hi");
-}
-
-}
+hi every one Shailesh Lokhande from this side we start the joury in java lang 
+**********some point to revice **********
+1.what is programing language
+    A programming language is a set of instructions written by a programmer to deliver instructions to the computer to perform and accomplish a task
+2.what is java 
+    Java is a high-level programming language that was developed by James Gosling in the year 1982. It is based on the principles of object-oriented
+    programming and can be used to develop large-scale applications
+3.Why is Java a platform independent language?
+    Java language was developed so that it does not depend on any hardware or software because the compiler compiles the code and then converts it to
+    platform-independent byte code which can be run on multiple systems
+4.Why is Java not a pure object oriented language?
+    Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language
+5.What is the latest Java version? 
+   java 22 is an latest version of java which is launched in sep 2024
