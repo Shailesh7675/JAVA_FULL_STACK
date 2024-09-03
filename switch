@@ -1,0 +1,43 @@
+******************SWITCH CASE*******************
+
+A switch statement without any case is not possible.
+Duplicate case labels are not allowed within the same switch block; they must be unique values.
+The switch statement in Java supports the following data types:
+Primitive types: byte, short, char, int.
+Wrapper classes: Byte, Short, Character, Integer.
+Enumerated types (enum).
+String: String was introduced as a supported type for switch in Java 7.
+
+example:
+
+
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter the Fisrt latter of day");
+		char a=sc.next().charAt(0);
+		switch (a) {
+		case 's':
+			System.out.println("its sunday");
+			break;
+		case 'm':
+			System.out.println("monday");
+			break;
+		case 'w':
+			System.out.println("its Wednesday");
+			break;
+		case 't':
+			System.out.println("its Thursday");
+			break;
+		case 'S':
+			System.out.println("its Saturday");
+			break;
+		default:
+			System.out.println("enter valid");
+			break;
+		}
+	}
+}
+
+
